@@ -68,22 +68,55 @@ line-height: normal;
 padding: 16px;
 margin: 0;
 }
-.img1{
+.img{
 
-    width: 1320px;
+   background-image: url(../resources/Vectorrr.png);
+   background-size: cover;
+   width: 1320px;
     height: 600px;
-    margin-right: auto;
-   margin-left: auto;
-   padding-top: 5%;
-   display: flex;
+    margin-top: 50px;
+   margin-right: auto;
+    margin-left: auto;
+display: flex;
 }
-.img1 .2nd img{
+.img .head{
+    color: #FFF;
 
-    width: 319.83px;
-    height: 464.662px;
-    padding: 0.008px 0px 0px 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 70px;
+    
+    padding-top: 126px ;
+    padding-left: 126px;
+    padding-bottom: 298px;
 
+}
+.img .arc{
+    color: rgba(255, 255, 255, 0.80);
+    width: 697px;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-top:350px ;
+padding-left:0px;
+margin:0;
+display: flex;
+
+
+
+}
+.img .btn-p{
+    color: #1bcf1b;
+
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+border-radius: 2px;
+background: none;
+padding: 18px 30px ;
 }
